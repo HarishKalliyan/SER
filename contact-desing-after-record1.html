@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./contact-desing-after-record1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spline Sans:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contact-desing-after-record">
+      <header class="contacknavbar">
+        <div class="logo5">
+          <div class="innerframe-icon5">
+            <img
+              class="design-join-icon5"
+              loading="lazy"
+              alt=""
+              src="./public/design-join.svg"
+            />
+          </div>
+          <div class="pagetext5">
+            <b class="speech-emotion-detection14">Speech Emotion Detection</b>
+          </div>
+        </div>
+        <div class="mainmenubox">
+          <div class="main-option-menue5">
+            <div class="option15" id="option1Container">
+              <div class="home5">Home</div>
+            </div>
+            <div class="option25" id="option2Container">
+              <div class="about5">About</div>
+            </div>
+            <div class="option35">
+              <div class="contacts5">Contacts</div>
+            </div>
+          </div>
+          <div class="back-button4">
+            <div class="colorpart7">
+              <button class="back4" onclick="history.back()">Back</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="fillupbox">
+        <div class="contentbox2">
+          <div class="formtopic">
+            <h1 class="lets-get-in">Let's get in touch</h1>
+          </div>
+          <div class="desciption">
+            <div class="were-here-to">
+              We're here to help. Please share your question, comment, or
+              feedback and we'll be in touch soon.
+            </div>
+          </div>
+          <div class="wrapper-namebox">
+            <input class="namebox" placeholder="Your name" type="text" />
+
+            <div class="inputspace">
+              <div class="placeholder">
+                <div class="your-name">Your name</div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper-emailbox">
+            <input class="emailbox" placeholder="Your email" type="text" />
+
+            <div class="inputspace1">
+              <div class="placeholder1">
+                <div class="your-email">Your email</div>
+              </div>
+            </div>
+          </div>
+          <div class="messagebox">
+            <textarea
+              class="inputspace2"
+              placeholder="Type your message here"
+              rows="{7}"
+              cols="{24}"
+            >
+            </textarea>
+          </div>
+          <div class="checkboxes">
+            <div class="subcribion">
+              <input class="subscription-vec" type="checkbox" />
+
+              <div class="subscribe-to-our">Subscribe to our newsletter</div>
+            </div>
+            <div class="request">
+              <input class="vector-06" type="checkbox" />
+
+              <div class="request-a-call">Request a call back</div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      var option1Container = document.getElementById("option1Container");
+      if (option1Container) {
+        option1Container.addEventListener("click", function (e) {
+          window.location.href = "./homepage-after-record1.html";
+        });
+      }
+      
+      var option2Container = document.getElementById("option2Container");
+      if (option2Container) {
+        option2Container.addEventListener("click", function (e) {
+          window.location.href = "./about-desing-after-record.html";
+        });
+      }
+      </script>
+  </body>
+</html>

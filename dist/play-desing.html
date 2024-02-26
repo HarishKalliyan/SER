@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="/about-desing-after-record.689f5f05.css">
+    <link rel="stylesheet" href="/play-desing.bd2f5103.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@400;500;700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work Sans:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spline Sans:wght@400;500;700&display=swap">
+  </head>
+  <body>
+    <div class="play-desing">
+      <header class="recnavbox">
+        <div class="logo3">
+          <div class="innerframe-icon3">
+            <img class="design-join-icon3" loading="lazy" alt="" src="/design-join.7fdeaa41.svg">
+          </div>
+          <div class="pagetext3">
+            <b class="speech-emotion-detection8">Speech Emotion Detection</b>
+          </div>
+        </div>
+        <div class="menu1">
+          <div class="main-option-menue3">
+            <div class="option13" id="option1Container">
+              <div class="home3">Home</div>
+            </div>
+            <div class="option23" id="option2Container">
+              <div class="about3">About</div>
+            </div>
+            <div class="option33" id="option3Container">
+              <div class="contacts3">Contacts</div>
+            </div>
+          </div>
+          <button class="upload" id="upload">
+            <div class="colorbox2">
+              <b class="upload1">Upload</b>
+            </div>
+          </button>
+          <div class="back-button2">
+            <div class="colorpart5">
+              <button class="back2" onclick="history.back()">Back</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="frame-parent">
+        <div class="speech-emotion-detection-parent">
+          <h1 class="speech-emotion-detection9">Speech Emotion Detection</h1>
+          <div class="analysis-of-your2">
+            Analysis of your emotion using Speech. Understand yourself!
+          </div>
+        </div>
+        <div class="record-box">
+          <div class="centerbox">
+            <div class="playdetails">
+              <img class="plater-pic-icon" loading="lazy" alt="" src="/plater-pic@2x.85a59dd7.png">
+
+              <div class="audiodetails">
+                <b class="recorded-audio">Recorded Audio</b>
+                <div class="user">User</div>
+              </div>
+              <div class="playbutton">
+                <div class="colorbutton"></div>
+                <div class="trianglebutton">
+                  <img class="vector-shape-icon" loading="lazy" alt="" src="/vector--01.928c5ed6.svg">
+                </div>
+              </div>
+            </div>
+            <div class="playbar">
+              <div class="bar1">
+                <div class="full"></div>
+                <div class="unfull"></div>
+                <div class="dot"></div>
+              </div>
+              <div class="time">
+                <div class="played">
+                  <div class="start-recording-label">1:17</div>
+                </div>
+                <div class="remaining">
+                  <div class="div">2:23</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="get-emotion-button-frame">
+          <div class="playpause-parent">
+            <button class="playpause" id="playPause">
+              <div class="colorbox3">
+                <b class="playpause1">Play/Pause</b>
+              </div>
+            </button>
+            <button class="resetbutton" id="resetButton">
+              <div class="colorbox4">
+                <b class="reset">Reset</b>
+              </div>
+            </button>
+            <button class="colorbox5" id="colorBox">
+              <b class="start-recording">Start Recording</b>
+            </button>
+          </div>
+          <div class="after-pressing-the1">
+            After pressing the button above, you will have 15sec to record your
+            audio
+          </div>
+        </div>
+        <div class="getemotion-button" data-scroll-to="getEmotionButtonContainer">
+          <button class="colorbox6" id="colorBox1">
+            <b class="get-emotion-analysis" data-scroll-to="getEmotionAnalysis">Get Emotion Analysis</b>
+          </button>
+        </div>
+      </section>
+      <section class="recoredbottom">
+        <div class="recordedfooter">
+          <div class="copyright-text">
+            <div class="speech-emotion-detection10">
+              © 2024 Speech Emotion Detection
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>var option1Container = document.getElementById("option1Container");
+if (option1Container) option1Container.addEventListener("click", function(e) {
+    window.location.href = "./homepage-after-record1.html";
+});
+var option2Container = document.getElementById("option2Container");
+if (option2Container) option2Container.addEventListener("click", function(e) {
+    window.location.href = "./about-desing-before-record.html";
+});
+var option3Container = document.getElementById("option3Container");
+if (option3Container) option3Container.addEventListener("click", function(e) {
+    window.location.href = "./contact-desing-before-record.html";
+});
+var upload = document.getElementById("upload");
+if (upload) upload.addEventListener("click", function(e) {
+    window.location.href = "./upload-page.html";
+});
+var playPause = document.getElementById("playPause");
+if (playPause) playPause.addEventListener("click", function() {
+    var anchor = document.querySelector("[data-scroll-to='getEmotionAnalysis']");
+    if (anchor) anchor.scrollIntoView({
+        block: "start",
+        behavior: "smooth"
+    });
+});
+var resetButton = document.getElementById("resetButton");
+if (resetButton) resetButton.addEventListener("click", function() {
+    var anchor = document.querySelector("[data-scroll-to='getEmotionButtonContainer']");
+    if (anchor) anchor.scrollIntoView({
+        block: "start",
+        behavior: "smooth"
+    });
+});
+var colorBox = document.getElementById("colorBox");
+if (colorBox) colorBox.addEventListener("click", function(e) {
+    window.location.href = "./record-design.html";
+});
+var colorBox1 = document.getElementById("colorBox1");
+if (colorBox1) colorBox1.addEventListener("click", function(e) {
+    window.location.href = "./analysis-page.html";
+});
+
+</script>
+  <script src="/play-desing.bd152f66.js"></script></body>
+</html>
